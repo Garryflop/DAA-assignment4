@@ -78,17 +78,6 @@ DAA-assignment4/
 mvn clean compile
 ```
 
-### Generate Datasets
-
-```bash
-mvn exec:java -Dexec.mainClass="org.harryfloppa.util.DatasetGenerator"
-```
-
-This generates 9 datasets in the `data/` directory:
-- 3 small (6-10 vertices)
-- 3 medium (10-20 vertices)  
-- 3 large (20-50 vertices)
-
 ### Run Tests
 
 ```bash
